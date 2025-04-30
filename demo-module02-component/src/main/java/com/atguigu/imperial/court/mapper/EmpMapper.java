@@ -1,5 +1,6 @@
 package com.atguigu.imperial.court.mapper;
 
+import com.atguigu.imperial.court.entity.Emp;
 import com.atguigu.imperial.court.entity.EmpExample;
 import org.apache.ibatis.annotations.Param;
 
