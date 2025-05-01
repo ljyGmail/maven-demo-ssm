@@ -7,6 +7,7 @@ import com.atguigu.imperial.court.service.api.EmpService;
 import com.atguigu.imperial.court.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -20,6 +21,7 @@ import java.util.List;
  * @Version 1.0
  */
 @Service
+@Transactional(readOnly = true)
 public class EmpServiceImpl implements EmpService {
 
     @Autowired
