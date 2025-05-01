@@ -1,6 +1,5 @@
 package com.atguigu.imperial.court;
 
-import com.alibaba.druid.filter.AutoLoad;
 import com.atguigu.imperial.court.entity.Emp;
 import com.atguigu.imperial.court.entity.EmpExample;
 import com.atguigu.imperial.court.mapper.EmpMapper;
